@@ -1,0 +1,36 @@
+## Сборочные артефакты
+bin/
+obj/
+out/
+
+## Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## Конфигурации и пользовательские файлы
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+## Кэш и артефакты NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## dotnet tool restore cache
+**/.store/
+
+## Логи
+*.log
+
+## Секреты
+secrets.json
+
+## Системные файлы
+.DS_Store
+Thumbs.db
